@@ -6,13 +6,13 @@ import CreateNote from './Components/CreateNote';
 
 class App extends Component{
 
-  state = {
+  /* state = {
     notes: [
       {text: 'note1', id: 1},
       {text: 'note2', id: 2},
       {text: 'note3', id: 3}
     ]
-  }
+  } */
 
   
 
