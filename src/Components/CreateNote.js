@@ -25,7 +25,7 @@ function CreateNote() {
   /* console.log("saved", final); */
 
   return (
-    <div>
+    <div className="notes">
       <Button className="createNote" onClick={handleShow}>
         <span role="img" aria-label="pencil">
           take a note ✏️
@@ -35,12 +35,7 @@ function CreateNote() {
       {final.map((note) => (
         <div key={note.id} className="note__title">
           {note.title}
-        </div>
-      ))}
-      
-      {final.map((note) => (
-        <div key={note.id} className="note__text">
-          {note.text}
+          <span>{note.text}</span>
         </div>
       ))}
       </div>
