@@ -31,11 +31,18 @@ function CreateNote() {
           take a note ✏️
         </span>
       </Button>
-
       <div className="note">
-        <div className="note__title">{final.map((note) => (
-          <div key={note.id} className="title">{note.title}</div>
-        ))}</div>
+      {final.map((note) => (
+        <div key={note.id} className="note__title">
+          {note.title}
+        </div>
+      ))}
+      
+      {final.map((note) => (
+        <div key={note.id} className="note__text">
+          {note.text}
+        </div>
+      ))}
       </div>
 
       <Modal
