@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Notes-App/static/css/main.7dd85925.chunk.css",
+    "main.js": "/Notes-App/static/js/main.7af559b6.chunk.js",
+    "main.js.map": "/Notes-App/static/js/main.7af559b6.chunk.js.map",
+    "runtime-main.js": "/Notes-App/static/js/runtime-main.1e6c1761.js",
+    "runtime-main.js.map": "/Notes-App/static/js/runtime-main.1e6c1761.js.map",
+    "static/js/2.cb3dadbd.chunk.js": "/Notes-App/static/js/2.cb3dadbd.chunk.js",
+    "static/js/2.cb3dadbd.chunk.js.map": "/Notes-App/static/js/2.cb3dadbd.chunk.js.map",
+    "index.html": "/Notes-App/index.html",
+    "precache-manifest.b33dd77b191c709eca2b2a71a373d8cc.js": "/Notes-App/precache-manifest.b33dd77b191c709eca2b2a71a373d8cc.js",
+    "service-worker.js": "/Notes-App/service-worker.js",
+    "static/css/main.7dd85925.chunk.css.map": "/Notes-App/static/css/main.7dd85925.chunk.css.map",
+    "static/js/2.cb3dadbd.chunk.js.LICENSE.txt": "/Notes-App/static/js/2.cb3dadbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e6c1761.js",
+    "static/js/2.cb3dadbd.chunk.js",
+    "static/css/main.7dd85925.chunk.css",
+    "static/js/main.7af559b6.chunk.js"
+  ]
+}
