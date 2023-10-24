@@ -1,17 +1,18 @@
-import React from 'react'
+import React from "react";
+import "../styles/SearchNote.css";
 
 function SearchNote(props) {
-    return (
-        <input 
-            type="text"
-            value=""
-            placeholder="🔍 search your note..."
-            className="searchNote"
-            onChange={(event) => {
-                
-            }}
-        />
-    )
+  return (
+    <input
+      type="text"
+      value={props.query}
+      onChange={(e) => {
+        props.searchNote(e.target.value);
+      }}
+      placeholder="🔍 search for a note..."
+      className="search-note"
+    />
+  );
 }
 
-export default SearchNote
+export default SearchNote;
